@@ -1,0 +1,55 @@
+.wrap {
+	padding-top: 66px;
+}
+
+.hide {
+	display: none;
+}
+.categories{
+}
+#div_content {
+	min-height: 88px;
+	height: auto;
+	max-height: 300px;
+	overflow: auto;
+	word-wrap: break-word;
+	color: black;
+}
+#div_content[contenteditable="true"] {
+	border: 1px solid #e1e8ed;
+  	border-color: rgba(0,132,180,0.25);
+}
+
+#newPost {
+}
+.wtf {
+	  cursor: pointer;
+	  background-image: url("../image/icon_meep/wtf.png");
+	  background-repeat: no-repeat;
+	  background-size: 64px 64px;
+	  height: 64px;
+	  width: 64px;
+}
+.vl {
+	  cursor: pointer;
+	  background-image: url("../image/icon_meep/vl.png");
+	  background-repeat: no-repeat;
+	  background-size: 64px 64px;
+	  height: 64px;
+	  width: 64px;
+}
+.longlanh {
+	  cursor: pointer;
+	  background-image: url("../image/icon_meep/longlanh.png");
+	  background-repeat: no-repeat;
+	  background-size: 64px 64px;
+	  height: 64px;
+	  width: 64px;
+}
+.form-group>ul>li {
+	display: inline-block;
+}
+.count_text{
+	color: black;
+	float: right;
+}
